@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D33269803D2230C67D1F5D1 /* Pods_ZohoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BF213246D6D582D2228521 /* Pods_ZohoAppUITests.framework */; };
+		55FB713881AEAF9A2764CF08 /* Pods_ZohoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570B04EEA5A0F17D5F3C7257 /* Pods_ZohoAppTests.framework */; };
+		921B889989043E8528AFD8B0 /* Pods_ZohoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738D787D0C8A1606D242E615 /* Pods_ZohoApp.framework */; };
+		EE42A0FF2073C986004BD759 /* PlantsChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42A0FE2073C986004BD759 /* PlantsChartView.swift */; };
+		EE42A1012073C998004BD759 /* WateringBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42A1002073C998004BD759 /* WateringBubbleView.swift */; };
+		EE42A1052073E2CA004BD759 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42A1042073E2CA004BD759 /* AppConstants.swift */; };
+		EE42A1072073FB81004BD759 /* DayAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42A1062073FB81004BD759 /* DayAxisValueFormatter.swift */; };
+		EE734A0D207784600054A73A /* GraphHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE734A0C207784600054A73A /* GraphHandler.swift */; };
+		EE734A102079A8850054A73A /* Familiar Pro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE734A0F2079A8840054A73A /* Familiar Pro-Bold.otf */; };
+		EE734A142079AB6A0054A73A /* SinkinSans-700Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE734A132079AB620054A73A /* SinkinSans-700Bold.otf */; };
+		EE734A152079AB6A0054A73A /* SinkinSans-800Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE734A122079AB620054A73A /* SinkinSans-800Black.otf */; };
+		EE734A162079AB6A0054A73A /* SinkinSans-900XBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE734A112079AB610054A73A /* SinkinSans-900XBlack.otf */; };
+		EEDF3B5D20727D1800886BA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDF3B5C20727D1800886BA6 /* AppDelegate.swift */; };
+		EEDF3B5F20727D1800886BA6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDF3B5E20727D1800886BA6 /* MainViewController.swift */; };
+		EEDF3B6220727D1800886BA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDF3B6020727D1800886BA6 /* Main.storyboard */; };
+		EEDF3B6520727D1800886BA6 /* ZohoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEDF3B6320727D1800886BA6 /* ZohoApp.xcdatamodeld */; };
+		EEDF3B6720727D1800886BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDF3B6620727D1800886BA6 /* Assets.xcassets */; };
+		EEDF3B6A20727D1800886BA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDF3B6820727D1800886BA6 /* LaunchScreen.storyboard */; };
+		EEDF3B7520727D1900886BA6 /* ZohoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDF3B7420727D1900886BA6 /* ZohoAppTests.swift */; };
+		EEDF3B8020727D1900886BA6 /* ZohoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDF3B7F20727D1900886BA6 /* ZohoAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEDF3B7120727D1900886BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDF3B5120727D1800886BA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEDF3B5820727D1800886BA6;
+			remoteInfo = ZohoApp;
+		};
+		EEDF3B7C20727D1900886BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDF3B5120727D1800886BA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEDF3B5820727D1800886BA6;
+			remoteInfo = ZohoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F0AD700D687D265175AA90 /* Pods-ZohoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZohoAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZohoAppUITests/Pods-ZohoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0AE5B30B60527C879B4AD759 /* Pods-ZohoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZohoAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZohoAppTests/Pods-ZohoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31BF213246D6D582D2228521 /* Pods_ZohoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZohoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		570B04EEA5A0F17D5F3C7257 /* Pods_ZohoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZohoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		617FA9010C41209D23AE6D91 /* Pods-ZohoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZohoAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZohoAppTests/Pods-ZohoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		738D787D0C8A1606D242E615 /* Pods_ZohoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZohoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C2DEF87BEA223987419F0B3 /* Pods-ZohoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZohoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZohoApp/Pods-ZohoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E2309A8A9979984285069474 /* Pods-ZohoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZohoAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZohoAppUITests/Pods-ZohoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE42A0FE2073C986004BD759 /* PlantsChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsChartView.swift; sourceTree = "<group>"; };
+		EE42A1002073C998004BD759 /* WateringBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringBubbleView.swift; sourceTree = "<group>"; };
+		EE42A1042073E2CA004BD759 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		EE42A1062073FB81004BD759 /* DayAxisValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayAxisValueFormatter.swift; sourceTree = "<group>"; };
+		EE734A0C207784600054A73A /* GraphHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphHandler.swift; sourceTree = "<group>"; };
+		EE734A0F2079A8840054A73A /* Familiar Pro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Familiar Pro-Bold.otf"; sourceTree = "<group>"; };
+		EE734A112079AB610054A73A /* SinkinSans-900XBlack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SinkinSans-900XBlack.otf"; sourceTree = "<group>"; };
+		EE734A122079AB620054A73A /* SinkinSans-800Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SinkinSans-800Black.otf"; sourceTree = "<group>"; };
+		EE734A132079AB620054A73A /* SinkinSans-700Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SinkinSans-700Bold.otf"; sourceTree = "<group>"; };
+		EEDF3B5920727D1800886BA6 /* ZohoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZohoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDF3B5C20727D1800886BA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEDF3B5E20727D1800886BA6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EEDF3B6120727D1800886BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEDF3B6420727D1800886BA6 /* ZohoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZohoApp.xcdatamodel; sourceTree = "<group>"; };
+		EEDF3B6620727D1800886BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEDF3B6920727D1800886BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEDF3B6B20727D1800886BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDF3B7020727D1900886BA6 /* ZohoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZohoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDF3B7420727D1900886BA6 /* ZohoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZohoAppTests.swift; sourceTree = "<group>"; };
+		EEDF3B7620727D1900886BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDF3B7B20727D1900886BA6 /* ZohoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZohoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDF3B7F20727D1900886BA6 /* ZohoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZohoAppUITests.swift; sourceTree = "<group>"; };
+		EEDF3B8120727D1900886BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80233939C20A18C9368D1AA /* Pods-ZohoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZohoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZohoApp/Pods-ZohoApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEDF3B5620727D1800886BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921B889989043E8528AFD8B0 /* Pods_ZohoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDF3B6D20727D1900886BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FB713881AEAF9A2764CF08 /* Pods_ZohoAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDF3B7820727D1900886BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D33269803D2230C67D1F5D1 /* Pods_ZohoAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075AA1A7403FD9AC7CF4A0CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C2DEF87BEA223987419F0B3 /* Pods-ZohoApp.debug.xcconfig */,
+				F80233939C20A18C9368D1AA /* Pods-ZohoApp.release.xcconfig */,
+				0AE5B30B60527C879B4AD759 /* Pods-ZohoAppTests.debug.xcconfig */,
+				617FA9010C41209D23AE6D91 /* Pods-ZohoAppTests.release.xcconfig */,
+				E2309A8A9979984285069474 /* Pods-ZohoAppUITests.debug.xcconfig */,
+				02F0AD700D687D265175AA90 /* Pods-ZohoAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		08A66B257C5B931837E46354 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				738D787D0C8A1606D242E615 /* Pods_ZohoApp.framework */,
+				570B04EEA5A0F17D5F3C7257 /* Pods_ZohoAppTests.framework */,
+				31BF213246D6D582D2228521 /* Pods_ZohoAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE42A0FC2073B081004BD759 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE42A0FE2073C986004BD759 /* PlantsChartView.swift */,
+				EE42A1002073C998004BD759 /* WateringBubbleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE734A0920777D910054A73A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF3B5E20727D1800886BA6 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EE734A0A20777DA50054A73A /* MainFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF3B5C20727D1800886BA6 /* AppDelegate.swift */,
+				EEDF3B6020727D1800886BA6 /* Main.storyboard */,
+				EEDF3B6620727D1800886BA6 /* Assets.xcassets */,
+				EEDF3B6820727D1800886BA6 /* LaunchScreen.storyboard */,
+				EEDF3B6B20727D1800886BA6 /* Info.plist */,
+				EEDF3B6320727D1800886BA6 /* ZohoApp.xcdatamodeld */,
+			);
+			path = MainFiles;
+			sourceTree = "<group>";
+		};
+		EE734A0B20777DBE0054A73A /* HelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EE42A1062073FB81004BD759 /* DayAxisValueFormatter.swift */,
+				EE42A1042073E2CA004BD759 /* AppConstants.swift */,
+				EE734A0C207784600054A73A /* GraphHandler.swift */,
+			);
+			path = HelperFiles;
+			sourceTree = "<group>";
+		};
+		EE734A17207B69140054A73A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE734A132079AB620054A73A /* SinkinSans-700Bold.otf */,
+				EE734A122079AB620054A73A /* SinkinSans-800Black.otf */,
+				EE734A112079AB610054A73A /* SinkinSans-900XBlack.otf */,
+				EE734A0F2079A8840054A73A /* Familiar Pro-Bold.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EEDF3B5020727D1800886BA6 = {
+			isa = PBXGroup;
+			children = (
+				EEDF3B5B20727D1800886BA6 /* ZohoApp */,
+				EEDF3B7320727D1900886BA6 /* ZohoAppTests */,
+				EEDF3B7E20727D1900886BA6 /* ZohoAppUITests */,
+				EEDF3B5A20727D1800886BA6 /* Products */,
+				075AA1A7403FD9AC7CF4A0CF /* Pods */,
+				08A66B257C5B931837E46354 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEDF3B5A20727D1800886BA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF3B5920727D1800886BA6 /* ZohoApp.app */,
+				EEDF3B7020727D1900886BA6 /* ZohoAppTests.xctest */,
+				EEDF3B7B20727D1900886BA6 /* ZohoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEDF3B5B20727D1800886BA6 /* ZohoApp */ = {
+			isa = PBXGroup;
+			children = (
+				EE734A17207B69140054A73A /* Resources */,
+				EE734A0B20777DBE0054A73A /* HelperFiles */,
+				EE734A0A20777DA50054A73A /* MainFiles */,
+				EE734A0920777D910054A73A /* Controllers */,
+				EE42A0FC2073B081004BD759 /* Views */,
+			);
+			path = ZohoApp;
+			sourceTree = "<group>";
+		};
+		EEDF3B7320727D1900886BA6 /* ZohoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF3B7420727D1900886BA6 /* ZohoAppTests.swift */,
+				EEDF3B7620727D1900886BA6 /* Info.plist */,
+			);
+			path = ZohoAppTests;
+			sourceTree = "<group>";
+		};
+		EEDF3B7E20727D1900886BA6 /* ZohoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF3B7F20727D1900886BA6 /* ZohoAppUITests.swift */,
+				EEDF3B8120727D1900886BA6 /* Info.plist */,
+			);
+			path = ZohoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEDF3B5820727D1800886BA6 /* ZohoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDF3B8420727D1900886BA6 /* Build configuration list for PBXNativeTarget "ZohoApp" */;
+			buildPhases = (
+				18DC100A509B4C2EDBA9F8EA /* [CP] Check Pods Manifest.lock */,
+				EEDF3B5520727D1800886BA6 /* Sources */,
+				EEDF3B5620727D1800886BA6 /* Frameworks */,
+				EEDF3B5720727D1800886BA6 /* Resources */,
+				906C4E02F65A1EBAD0908CF5 /* [CP] Embed Pods Frameworks */,
+				EC4B6AA537EEC0047257C26D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZohoApp;
+			productName = ZohoApp;
+			productReference = EEDF3B5920727D1800886BA6 /* ZohoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEDF3B6F20727D1900886BA6 /* ZohoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDF3B8720727D1900886BA6 /* Build configuration list for PBXNativeTarget "ZohoAppTests" */;
+			buildPhases = (
+				364E8F2F2DD4F4205195E5A1 /* [CP] Check Pods Manifest.lock */,
+				EEDF3B6C20727D1900886BA6 /* Sources */,
+				EEDF3B6D20727D1900886BA6 /* Frameworks */,
+				EEDF3B6E20727D1900886BA6 /* Resources */,
+				04A3E409DE65D198F2423EDC /* [CP] Embed Pods Frameworks */,
+				005F26404FFF510328138223 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEDF3B7220727D1900886BA6 /* PBXTargetDependency */,
+			);
+			name = ZohoAppTests;
+			productName = ZohoAppTests;
+			productReference = EEDF3B7020727D1900886BA6 /* ZohoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEDF3B7A20727D1900886BA6 /* ZohoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDF3B8A20727D1900886BA6 /* Build configuration list for PBXNativeTarget "ZohoAppUITests" */;
+			buildPhases = (
+				179B7AC2491C82AB5BD79761 /* [CP] Check Pods Manifest.lock */,
+				EEDF3B7720727D1900886BA6 /* Sources */,
+				EEDF3B7820727D1900886BA6 /* Frameworks */,
+				EEDF3B7920727D1900886BA6 /* Resources */,
+				F54E7ED2A51E4DB1EF465407 /* [CP] Embed Pods Frameworks */,
+				C23A81FFD3FF66431B9CA283 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEDF3B7D20727D1900886BA6 /* PBXTargetDependency */,
+			);
+			name = ZohoAppUITests;
+			productName = ZohoAppUITests;
+			productReference = EEDF3B7B20727D1900886BA6 /* ZohoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEDF3B5120727D1800886BA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ABHINAY;
+				TargetAttributes = {
+					EEDF3B5820727D1800886BA6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EEDF3B6F20727D1900886BA6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEDF3B5820727D1800886BA6;
+					};
+					EEDF3B7A20727D1900886BA6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEDF3B5820727D1800886BA6;
+					};
+				};
+			};
+			buildConfigurationList = EEDF3B5420727D1800886BA6 /* Build configuration list for PBXProject "ZohoApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEDF3B5020727D1800886BA6;
+			productRefGroup = EEDF3B5A20727D1800886BA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEDF3B5820727D1800886BA6 /* ZohoApp */,
+				EEDF3B6F20727D1900886BA6 /* ZohoAppTests */,
+				EEDF3B7A20727D1900886BA6 /* ZohoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEDF3B5720727D1800886BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE734A102079A8850054A73A /* Familiar Pro-Bold.otf in Resources */,
+				EE734A162079AB6A0054A73A /* SinkinSans-900XBlack.otf in Resources */,
+				EEDF3B6A20727D1800886BA6 /* LaunchScreen.storyboard in Resources */,
+				EEDF3B6720727D1800886BA6 /* Assets.xcassets in Resources */,
+				EEDF3B6220727D1800886BA6 /* Main.storyboard in Resources */,
+				EE734A142079AB6A0054A73A /* SinkinSans-700Bold.otf in Resources */,
+				EE734A152079AB6A0054A73A /* SinkinSans-800Black.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDF3B6E20727D1900886BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDF3B7920727D1900886BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		005F26404FFF510328138223 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZohoAppTests/Pods-ZohoAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		04A3E409DE65D198F2423EDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZohoAppTests/Pods-ZohoAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		179B7AC2491C82AB5BD79761 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		18DC100A509B4C2EDBA9F8EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		364E8F2F2DD4F4205195E5A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		906C4E02F65A1EBAD0908CF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZohoApp/Pods-ZohoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C23A81FFD3FF66431B9CA283 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZohoAppUITests/Pods-ZohoAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC4B6AA537EEC0047257C26D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZohoApp/Pods-ZohoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F54E7ED2A51E4DB1EF465407 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZohoAppUITests/Pods-ZohoAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEDF3B5520727D1800886BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDF3B6520727D1800886BA6 /* ZohoApp.xcdatamodeld in Sources */,
+				EEDF3B5F20727D1800886BA6 /* MainViewController.swift in Sources */,
+				EE42A1072073FB81004BD759 /* DayAxisValueFormatter.swift in Sources */,
+				EEDF3B5D20727D1800886BA6 /* AppDelegate.swift in Sources */,
+				EE42A1052073E2CA004BD759 /* AppConstants.swift in Sources */,
+				EE42A0FF2073C986004BD759 /* PlantsChartView.swift in Sources */,
+				EE734A0D207784600054A73A /* GraphHandler.swift in Sources */,
+				EE42A1012073C998004BD759 /* WateringBubbleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDF3B6C20727D1900886BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDF3B7520727D1900886BA6 /* ZohoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDF3B7720727D1900886BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDF3B8020727D1900886BA6 /* ZohoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEDF3B7220727D1900886BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEDF3B5820727D1800886BA6 /* ZohoApp */;
+			targetProxy = EEDF3B7120727D1900886BA6 /* PBXContainerItemProxy */;
+		};
+		EEDF3B7D20727D1900886BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEDF3B5820727D1800886BA6 /* ZohoApp */;
+			targetProxy = EEDF3B7C20727D1900886BA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEDF3B6020727D1800886BA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEDF3B6120727D1800886BA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEDF3B6820727D1800886BA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEDF3B6920727D1800886BA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEDF3B8220727D1900886BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEDF3B8320727D1900886BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEDF3B8520727D1900886BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C2DEF87BEA223987419F0B3 /* Pods-ZohoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8QY3PT632;
+				INFOPLIST_FILE = "$(SRCROOT)/ZohoApp/MainFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artsycraftsy.anu.ZohoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEDF3B8620727D1900886BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F80233939C20A18C9368D1AA /* Pods-ZohoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8QY3PT632;
+				INFOPLIST_FILE = "$(SRCROOT)/ZohoApp/MainFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artsycraftsy.anu.ZohoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEDF3B8820727D1900886BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AE5B30B60527C879B4AD759 /* Pods-ZohoAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8QY3PT632;
+				INFOPLIST_FILE = ZohoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artsycraftsy.anu.ZohoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZohoApp.app/ZohoApp";
+			};
+			name = Debug;
+		};
+		EEDF3B8920727D1900886BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 617FA9010C41209D23AE6D91 /* Pods-ZohoAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8QY3PT632;
+				INFOPLIST_FILE = ZohoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artsycraftsy.anu.ZohoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZohoApp.app/ZohoApp";
+			};
+			name = Release;
+		};
+		EEDF3B8B20727D1900886BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2309A8A9979984285069474 /* Pods-ZohoAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8QY3PT632;
+				INFOPLIST_FILE = ZohoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artsycraftsy.anu.ZohoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZohoApp;
+			};
+			name = Debug;
+		};
+		EEDF3B8C20727D1900886BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F0AD700D687D265175AA90 /* Pods-ZohoAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8QY3PT632;
+				INFOPLIST_FILE = ZohoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artsycraftsy.anu.ZohoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZohoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEDF3B5420727D1800886BA6 /* Build configuration list for PBXProject "ZohoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDF3B8220727D1900886BA6 /* Debug */,
+				EEDF3B8320727D1900886BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEDF3B8420727D1900886BA6 /* Build configuration list for PBXNativeTarget "ZohoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDF3B8520727D1900886BA6 /* Debug */,
+				EEDF3B8620727D1900886BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEDF3B8720727D1900886BA6 /* Build configuration list for PBXNativeTarget "ZohoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDF3B8820727D1900886BA6 /* Debug */,
+				EEDF3B8920727D1900886BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEDF3B8A20727D1900886BA6 /* Build configuration list for PBXNativeTarget "ZohoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDF3B8B20727D1900886BA6 /* Debug */,
+				EEDF3B8C20727D1900886BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EEDF3B6320727D1800886BA6 /* ZohoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EEDF3B6420727D1800886BA6 /* ZohoApp.xcdatamodel */,
+			);
+			currentVersion = EEDF3B6420727D1800886BA6 /* ZohoApp.xcdatamodel */;
+			path = ZohoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EEDF3B5120727D1800886BA6 /* Project object */;
+}
