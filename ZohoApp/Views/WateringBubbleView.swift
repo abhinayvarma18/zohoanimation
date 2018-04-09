@@ -223,9 +223,9 @@ class WateringBubbleView: UIView {
                     self.tickAnimationLayer.add(startAnimationTick, forKey: "anim1")
                     
                     let startAnimationTickLayer = CABasicAnimation(keyPath: "strokeStart")
-                    startAnimationTickLayer.fromValue = 0.0
-                    startAnimationTickLayer.toValue = 1.0
-                    startAnimationTickLayer.duration = 1.0
+                    startAnimationTickLayer.fromValue = 1.0
+                    startAnimationTickLayer.toValue = 0.0
+                    startAnimationTickLayer.duration = 2.0
                     startAnimationTickLayer.fillMode = kCAFillModeForwards
                     // startAnimationTick.isRemovedOnCompletion = false
                     self.tickLayer.add(startAnimationTickLayer, forKey: "anim2")
@@ -237,8 +237,8 @@ class WateringBubbleView: UIView {
             startAnim.fromValue = 0.0
             startAnim.toValue = 0.8
             let endAnim = CABasicAnimation(keyPath: "strokeEnd")
-            endAnim.fromValue = 0.2
-            endAnim.toValue = 1.0
+            endAnim.fromValue = 1.0
+            endAnim.toValue = 0.2
             
             let animat = CAAnimationGroup()
             animat.fillMode = kCAFillModeBackwards
@@ -252,8 +252,8 @@ class WateringBubbleView: UIView {
             linearAnimation.fromValue = 0.8
             linearAnimation.toValue = 0.0
             let endAnim = CABasicAnimation(keyPath: "strokeEnd")
-            endAnim.fromValue = 0.2
-            endAnim.toValue = 1.0
+            endAnim.fromValue = 1.0
+            endAnim.toValue = 0.2
             
             let animat = CAAnimationGroup()
             animat.fillMode = kCAFillModeBackwards
@@ -261,10 +261,10 @@ class WateringBubbleView: UIView {
             animat.duration = 2.0
             smallBubbleLayer.add(animat, forKey: "myanim")
             
-            let tickAnimation = CABasicAnimation(keyPath: "path")
-            tickAnimation.duration = 2.0
-            tickAnimation.fromValue = tickLayer.path
-            tickAnimation.toValue = bigBubbleBeizerPath.cgPath
+            let tickAnimation = CABasicAnimation(keyPath: "strokeStart")
+            tickAnimation.duration = 3.0
+            tickAnimation.fromValue = 0.0
+            tickAnimation.toValue = 1.0
             bubbleLayer.add(tickAnimation, forKey: "anim5")
             CATransaction.setCompletionBlock({
                
@@ -310,14 +310,8 @@ class WateringBubbleView: UIView {
             print("step4 is been executed \(tickEnabled)")
             self.tickAnimationLayer.strokeColor = UIColor.white.cgColor
         }
-        
-        
     }
-    
-    
-    
 }
-
 
 extension UIView {
     func pushTransition(_ duration:CFTimeInterval) {

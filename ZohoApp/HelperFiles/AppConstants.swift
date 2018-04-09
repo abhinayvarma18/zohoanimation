@@ -28,8 +28,8 @@ struct Fonts {
 let maxHeightConstraintOfPlantMapView:CGFloat = 755
 let minHeightConstraintOfPlantMapView:CGFloat = 455
 
-let maxBottomConstraintOfPlantMapView:CGFloat = 140
-let minBottomConstraintOfPlantMapView:CGFloat = -160
+let maxBottomConstraintOfPlantMapView:CGFloat = 130
+let minBottomConstraintOfPlantMapView:CGFloat = -170
 
 let maxBottomConstraintOfWaterbubbleView:CGFloat = 0
 let minBottomConstraintOfWaterbubbleView:CGFloat = -220

@@ -108,7 +108,6 @@ class MainViewController: UIViewController {
                 print("1st completion called")
                 self.wateringBubbleView.animateBubbleView(true)
                 self.timer = Timer.scheduledTimer(timeInterval: 4.0, target: self, selector: #selector(self.update), userInfo: nil, repeats: false)
-                self.timer?.fire()
             })
         }
         

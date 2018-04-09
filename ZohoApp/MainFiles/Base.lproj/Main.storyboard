@@ -42,7 +42,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5We-VW-wg4" userLabel="PlantChartView" customClass="PlantsChartView" customModule="ZohoApp" customModuleProvider="target">
-                                <rect key="frame" x="5" y="321" width="404" height="455"/>
+                                <rect key="frame" x="5" y="331" width="404" height="455"/>
                                 <subviews>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7pL-mA-k0y">
                                         <rect key="frame" x="15" y="50.666666666666679" width="389" height="71.333333333333314"/>
@@ -488,7 +488,7 @@
                             <constraint firstItem="Qcg-qR-TQa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="arc-7P-QnY"/>
                             <constraint firstItem="ZiR-1Q-IrS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="bpg-qG-AxI"/>
                             <constraint firstItem="Qcg-qR-TQa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fET-Nz-ose"/>
-                            <constraint firstItem="dQG-F6-5M1" firstAttribute="top" secondItem="5We-VW-wg4" secondAttribute="bottom" constant="-160" id="iaR-qG-J0i"/>
+                            <constraint firstItem="dQG-F6-5M1" firstAttribute="top" secondItem="5We-VW-wg4" secondAttribute="bottom" constant="-170" id="iaR-qG-J0i"/>
                             <constraint firstItem="Qcg-qR-TQa" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="jct-uH-jBy"/>
                             <constraint firstItem="5We-VW-wg4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-5" id="me4-ml-cea"/>
                             <constraint firstItem="dQG-F6-5M1" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="nox-MR-avF"/>
